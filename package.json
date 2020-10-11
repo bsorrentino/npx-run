@@ -1,5 +1,5 @@
 {
-  "name": "npx-run-dev",
+  "name": "@bsorrentino/npx-run",
   "description": "Easily run scripts using npx.",
   "keywords": [
     "npx",
@@ -10,14 +10,14 @@
     "tool",
     "cli"
   ],
-  "version": "0.0.0-semantically-released",
+  "version": "2.1.2",
   "engines": {
     "node": ">=10.0.0"
   },
-  "private": true,
+  "private": false,
   "repository": {
     "type": "git",
-    "url": "git@github.com:nearmap/npx-run.git"
+    "url": "https://github.com/bsorrentino/npx-run.git"
   },
   "scripts": {
     "default": "run clean test",
